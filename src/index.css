@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, #root, .appContainer {
+  height: 111.5%;
+}
+
+.appContainer.light {
+  background-color: white;
+  color: black;
+}
+
+.appContainer.dark {
+  background-color: #343a40;
+  color: white;
+}
+
+.container {
+  padding-top: 20px;
+  min-height: 100vh;
+}
+
+.userListItem.light {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+.userListItem.dark {
+  background-color: #495057;
+  color: white;
+}
